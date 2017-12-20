@@ -59,7 +59,7 @@ public class Client {
         long start = System.currentTimeMillis();
         for (int i = 0; i < size; i++) {
         	WorkExperience workExperience = new WorkExperience("yyyy-yyyy", "XXX-公司", "攻城狮", "YYYYYY");
-    		Resume resume = new Resume("张三", 23, "男", workExperience);
+    		new Resume("张三", 23, "男", workExperience);
         }
         long end = System.currentTimeMillis();
         System.out.println("通过new方式所需要的时间为:" +(end - start));
@@ -72,7 +72,7 @@ public class Client {
 		Resume resume = new Resume("张三", 23, "男", workExperience);
         for (int i = 0; i < size; i++) {
             try {
-            	Resume resume1= (Resume) resume.clone();
+            	resume.clone();
             } catch (CloneNotSupportedException e) {
                 e.printStackTrace();
             }

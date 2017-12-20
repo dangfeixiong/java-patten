@@ -14,7 +14,7 @@ public class BYDFactory implements FactoryMethod {
 
 	@Override
 	public Car createCar() {
+		System.out.println("BYDCar");
 		return new BYDCar();
 	}
-
 }

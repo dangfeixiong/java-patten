@@ -16,11 +16,13 @@ public class BYDAbstractFactory implements AbstractFactory {
 
 	@Override
 	public Engine engine() {
+		System.out.println("BYDEngine");
 		return new BYDEngine();
 	}
 
 	@Override
 	public Wheel wheel() {
+		System.out.println("BYDWheel");
 		return new BYDWheel();
 	}
 

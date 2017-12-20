@@ -14,6 +14,7 @@ public class BenzFactory implements FactoryMethod {
 
 	@Override
 	public Car createCar() {
+		System.out.println("BenzCar");
 		return new BenzCar();
 	}
 }

@@ -16,11 +16,13 @@ public class BenzAbstractFactory implements AbstractFactory {
 
 	@Override
 	public Engine engine() {
+		System.out.println("BenzEngine");
 		return new BenzEngine();
 	}
 
 	@Override
 	public Wheel wheel() {
+		System.out.println("BenzWheel");
 		return new BenzWheel();
 	}
 

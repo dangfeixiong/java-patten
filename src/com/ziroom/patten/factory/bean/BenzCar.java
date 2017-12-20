@@ -10,18 +10,15 @@ package com.ziroom.patten.factory.bean;
 public class BenzCar implements Car {
 
 	@Override
-	public String start() {
-		return "±¼³ÛÆû³µ==>start";
+	public Engine engine() {
+		System.out.println("BenzEngine");
+		return new BenzEngine();
 	}
 
 	@Override
-	public String run() {
-		return "±¼³ÛÆû³µ==>run";
-	}
-
-	@Override
-	public String stop() {
-		return "±¼³ÛÆû³µ==>stop";
+	public Wheel wheel() {
+		System.out.println("BenzWheel");
+		return new BenzWheel();
 	}
 
 }

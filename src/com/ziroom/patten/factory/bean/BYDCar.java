@@ -10,18 +10,15 @@ package com.ziroom.patten.factory.bean;
 public class BYDCar implements Car {
 
 	@Override
-	public String start() {
-		return "比亚迪汽车==>start";
+	public Engine engine() {
+		System.out.println("BYDEngine");
+		return new BYDEngine();
 	}
 
 	@Override
-	public String run() {
-		return "比亚迪汽车==>run";
-	}
-
-	@Override
-	public String stop() {
-		return "比亚迪汽车==>stop";
+	public Wheel wheel() {
+		System.out.println("BYDWheel");
+		return new BYDWheel();
 	}
 
 }

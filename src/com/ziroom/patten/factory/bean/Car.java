@@ -8,10 +8,8 @@ package com.ziroom.patten.factory.bean;
  * @date 2017年12月18日 上午11:06:53
  */
 public interface Car {
-	//start
-	String start();
-	//run
-	String run();
-	//stop
-	String stop();
+	//发动机
+	Engine engine();
+	//轮子
+	Wheel wheel();
 }
