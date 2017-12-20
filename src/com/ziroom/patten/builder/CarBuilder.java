@@ -1,4 +1,4 @@
-package com.ziroom.patten.factory.builder;
+package com.ziroom.patten.builder;
 
 import com.ziroom.patten.factory.bean.Engine;
 import com.ziroom.patten.factory.bean.Wheel;

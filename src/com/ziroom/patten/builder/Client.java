@@ -1,4 +1,4 @@
-package com.ziroom.patten.factory.builder;
+package com.ziroom.patten.builder;
 
 import org.junit.Test;
 
