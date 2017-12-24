@@ -5,7 +5,6 @@ import org.junit.Test;
 import com.ziroom.patten.factory.abstractfactory.AbstractFactory;
 import com.ziroom.patten.factory.abstractfactory.BYDAbstractFactory;
 import com.ziroom.patten.factory.abstractfactory.BenzAbstractFactory;
-import com.ziroom.patten.factory.bean.BenzCar;
 import com.ziroom.patten.factory.factorymethod.BYDFactory;
 import com.ziroom.patten.factory.factorymethod.BenzFactory;
 import com.ziroom.patten.factory.factorymethod.FactoryMethod;

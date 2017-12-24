@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * 
  * @ClassName Client 
- * @Description protptype(原型)测试是类[创建一个对象的是比较复杂]
+ * @Description protptype(原型)测试是类[创建一个对象的时候比较复杂]
  * @author dfx
  * @date 2017年12月19日 上午11:44:08
  */
@@ -23,17 +23,20 @@ public class Client {
 		Resume resume1 = new Resume("张三", 23, "男", workExperience);
 		
 		//1.clone
-		//Resume resume2 = (Resume) resume1.clone();
+		Resume resume2 = (Resume) resume1.clone();
+		
+		System.out.println(resume1);
+		System.out.println(resume2);
 		
 		//2.==========序列化/反序列化(clone)=============
-		ByteArrayOutputStream bos = new ByteArrayOutputStream();
+		/*ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		ObjectOutputStream oos = new ObjectOutputStream(bos);
         oos.writeObject(resume1);
         byte[] bytes = bos.toByteArray();
         
         ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
         ObjectInputStream ois = new ObjectInputStream(bis);
-        Resume resume2 = (Resume) ois.readObject();
+        Resume resume2 = (Resume) ois.readObject();*/
 		//==========================================
 		
 		//修改工作经历信息
