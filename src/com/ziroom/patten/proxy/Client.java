@@ -12,7 +12,6 @@ import org.junit.Test;
  * @date: 2018年1月7日 上午12:20:21
  */
 public class Client {
-	
 	/*
 	 * 代理模式:
 	 *	1.为其他对象提供代理以控制对其他对象的访问

@@ -22,5 +22,4 @@ public class TimeHandler implements InvocationHandler {
 		long end = System.currentTimeMillis();
 		System.out.println("time:" + (end-start));
 	}
-
 }

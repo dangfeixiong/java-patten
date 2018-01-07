@@ -16,7 +16,7 @@ import javax.tools.ToolProvider;
  * 
  * @ClassName: DynamicProxy02.java
  * @Description: 模拟java自己实现的动态代理02 (实现任意接口的代理)
- * @author: dfx  
+ * @author: dfx
  * @date: 2018年1月7日 上午12:25:10
  */
 public class DynamicProxy02 {
