@@ -8,7 +8,7 @@ import org.junit.Test;
  * 
  * @ClassName: Client.java
  * @Description: 代理模式测试类 
- * @author: dfx  
+ * @author: dfx
  * @date: 2018年1月7日 上午12:20:21
  */
 public class Client {
