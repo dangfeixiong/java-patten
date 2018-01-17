@@ -7,7 +7,7 @@ package com.ziroom.patten.adapter;
  * @author dfx
  * @date 2017年12月25日 上午10:00:09
  */
-public class Adapter implements Target {
+public class Adapter implements Target{
 	
 	//======================//
 	//		1.对象适配			//
@@ -24,15 +24,4 @@ public class Adapter implements Target {
 		return adaptee.plug();
 	}
 	
-	//======================//
-	//		1.类适配			//
-	//======================//
-	
-	/*
-	@Override
-	public String transform() {
-		return super.USBPlug();
-	}
-	*/
-
 }

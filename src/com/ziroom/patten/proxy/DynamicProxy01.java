@@ -48,7 +48,7 @@ public class DynamicProxy01 {
 		fw.flush();
 		fw.close();
 		
-		//compile(根据.java文件生成.class文件)
+		// compile(根据.java文件生成.class文件)
 		JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
 		StandardJavaFileManager fileMgr = compiler.getStandardFileManager(null, null, null);
 		Iterable units = fileMgr.getJavaFileObjects(fileName);
